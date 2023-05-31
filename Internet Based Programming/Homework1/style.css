@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+#menu{
+    height: 80px;
+    padding: 0 20px;
+    background-color: #fffafa;
+}
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color: #315354;
+    float: left;
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+}
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #315354;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #315354;
+}
+
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #315354;
+}
+#contents{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+}
+
+#lorem1, #lorem2, #lorem3{
+    background-color: #fffafa;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.ab:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #579377;
+}
+.ab:hover{
+    border-bottom: 2px solid #579377;
+}
+.ab.ab:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #579377;
+}
